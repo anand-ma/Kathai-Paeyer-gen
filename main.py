@@ -21,7 +21,7 @@ st.code("""
         """, language= None)
 
 # Initialize the models
-base_model = ChatOpenAI(model="gpt-4o-mini-2024-07-18")
+base_model = ChatOpenAI(model="gpt-4o-mini")
 ft_model = ChatOpenAI(model="ft:gpt-4o-mini-2024-07-18:freelancer:ama-ft:AzIdNxDF")
 
 def generate_story_name(prompt, base_model=base_model, ft_model=ft_model):
